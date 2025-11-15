@@ -52,6 +52,9 @@ const Projects = () => {
                   <p className="text-muted-foreground text-sm leading-relaxed transition-all duration-500 line-clamp-3 group-hover:line-clamp-none">
                     {project.description}
                   </p>
+                  <p className="text-white text-sm leading-relaxed transition-all duration-500 line-clamp-2 group-hover:line-clamp-none">
+                    {project.myrole}
+                  </p>
                   <div className="absolute bottom-0 left-0 right-0 h-6 bg-gradient-to-t from-card to-transparent opacity-100 group-hover:opacity-0 transition-opacity duration-500 pointer-events-none" />
                 </div>
 

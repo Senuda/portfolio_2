@@ -24,7 +24,7 @@ const Skills = () => {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+        <div className="flex flex-wrap justify-center gap-4 mx-auto">
           {skills.map((skill, index) => (
             <motion.div
               key={skill.name}
@@ -34,11 +34,11 @@ const Skills = () => {
               className="group relative bg-card border border-border rounded-2xl p-8 hover:border-primary/50 hover:shadow-2xl hover:shadow-primary/10 transition-all duration-500"
             >
               <div className="flex justify-center mb-6">
-                <div className="w-24 h-24 flex items-center justify-center rounded-xl bg-background border border-border group-hover:scale-110 group-hover:border-primary/30 transition-all duration-500">
+                <div className="w-52 h-52 flex items-center justify-center rounded-xl bg-background border border-border group-hover:scale-110 group-hover:border-primary/30 transition-all duration-500">
                   <img
                     src={skill.icon}
                     alt={`${skill.name} logo`}
-                    className="w-16 h-16 object-contain"
+                    className="w-24 h-24 object-contain"
                   />
                 </div>
               </div>

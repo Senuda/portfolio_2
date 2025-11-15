@@ -72,7 +72,7 @@ export const projects = [
       "A dynamic website built with WordPress for purchasing caravans, motorhomes, and hybrid vehicles. The platform showcases vehicles with professional-style diagrams and high-quality images, giving customers a clear view of specifications and designs. It also features custom-built options that allow buyers to personalize their vehicles according to their preferences, making the purchase process more interactive and user-friendly.",
     myrole:
       "👉 My role: I focused mainly on the frontend development, designing the user interface, vehicle display pages, and integrating the custom options layout to ensure a seamless browsing and purchasing experience.",
-    technologies: ["React", "Node.js", "MongoDB", "Stripe", "Tailwind CSS"],
+    technologies: ["WordPress", "Node.js", "Java", "MySql", "HTML"],
     image: project_3,
 
     liveUrl: "https://greataussiecaravans.com.au/",
@@ -83,7 +83,8 @@ export const projects = [
     description:
       "A database-driven website built with WordPress, MySQL, and HTML to record and manage vehicle descriptions, buyers, sellers, and related details. It includes search, reporting, and authentication features.",
     myrole: "👉 My role: Frontend development (UI design & user experience).",
-    technologies: ["React", "TypeScript", "Firebase", "Framer Motion"],
+    technologies: ["WordPress", "Node.js", "Java", "MySql", "HTML"],
+
     image: project_1,
     liveUrl: "https://importauthority.com.au/",
   },
@@ -93,7 +94,8 @@ export const projects = [
     description:
       "A telecom network solution website developed with WordPress, MySQL, and HTML to showcase services such as Telephone, Internet, IP Phone, NBN Data, NBN Voice, NBN Bundles, and AI-powered solutions. It also features a 'Read More' option for detailed service descriptions. Content management system for creative professionals to  showcase their work with customizable themes and SEO optimization.",
     myrole: "👉 My role: Frontend development (service pages & layout design).",
-    technologies: ["Next.js", "PostgreSQL", "Prisma", "TailwindCSS"],
+    technologies: ["WordPress", "Node.js", "Java", "MySql", "HTML"],
+
     image: project_2,
 
     liveUrl: "https://noveltelecom.com.au/",
@@ -109,7 +111,7 @@ export const skills = [
   },
   {
     name: "MySQL",
-    level: 85,
+    level: 75,
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
     color: "#4479A1",
   },
@@ -117,6 +119,18 @@ export const skills = [
     name: "HTML",
     level: 95,
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+    color: "#E34F26",
+  },
+  {
+    name: "Java",
+    level: 90,
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+    color: "#E34F26",
+  },
+  {
+    name: "Node.js",
+    level: 30,
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
     color: "#E34F26",
   },
 ];
