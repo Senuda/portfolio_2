@@ -12,7 +12,7 @@ export const personalInfo = {
     github: "https://github.com/senuda",
     linkedin:
       "https://www.linkedin.com/in/senuda-thinal-971373196/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    email: "mailto:sanda0717227634@gmail.com",
+    email: "mailto:senuda10@gmail.com",
   },
 };
 
